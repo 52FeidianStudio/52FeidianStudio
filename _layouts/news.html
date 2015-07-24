@@ -13,7 +13,7 @@
         {% if post.category == 'news' %}
         <li class="item">
           <a class="pic" href="{{ post.url }}/" title="{{ post.title }}">
-            <img src="/public/img/{{ post.image }}" onerror="this.src='/public/img/default.jpg'"/>
+            <img src="/public/img/{{ post.image }}" onerror="this.src='/public/img/car.jpg'"/>
           </a>
           <a class="tit f-toe" href="{{ post.url }}/" title="{{ post.title }}">{{ post.title }}</a>
           <p class="date">{{ post.author }} 发布于 {{ post.date | date_to_string }}</p>
