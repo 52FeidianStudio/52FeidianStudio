@@ -1,0 +1,28 @@
+{% include head.html %}
+
+<div class="g-bd">
+  <div class="g-wrap">
+    <div class="m-bread">
+      <a href="/index.html">首页</a>
+      <span>&gt;</span>
+      <a href="/blog/">技术博文</a>
+    </div>
+    <div class="m-posts">
+      <ul class="f-cb">
+        {% for post in site.posts %}
+        {% if post.category == 'blog' %}
+        <li class="item">
+          <a class="pic" href="{{ post.url }}/" title="{{ post.title }}">
+            <img src="/public/img/{{ post.image }}" onerror="this.src='/public/img/default.jpg'"/>
+          </a>
+          <a class="tit f-toe" href="{{ post.url }}/" title="{{ post.title }}">{{ post.title }}</a>
+          <p class="date">{{ post.author }} 发布于 {{ post.date | date_to_string }}</p>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

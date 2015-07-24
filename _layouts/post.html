@@ -1,0 +1,37 @@
+{% include head.html %}
+
+<div class="g-bd">
+  <div class="g-wrap">
+    <div class="m-bread">
+      <a href="/index.html">首页</a>
+      <span>&gt;</span>
+      <a href="/blog/">技术博文</a>
+      <span>&gt;</span>
+      <a href="javascript:void(0);">{{ page.title }}</a>
+    </div>
+    <div class="f-cb">
+      <div class="g-mn f-fl">
+        <article>
+          <div class="info">
+            <h1>{{ page.title }}</h1>
+            <p>
+              {% if page.from %}
+                <span>[<a href="{{ page.from }}" title="查看原文">转载</a>]</span>
+              {% else %}
+                <span title="转载请注明出处">[原创]</span>
+              {% endif %}
+              <span>{{ page.author }}</span>
+              <span>发布于</span>
+              <span>{{ page.date | date_to_string }}</span>
+            </p>
+          </div>
+          <div class="ctn">
+            {{ content }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

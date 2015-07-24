@@ -1,0 +1,122 @@
+{% include head.html %}
+<div class="g-bd1">
+  <div class="g-wrap">
+       <div class="g-ma">
+       <div class="g-fl">
+          <div class="g-fn">
+          <a href="">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="">4</a>
+          </div>
+      </div>
+      <div class="g-img">
+          <ul>
+                <li><span class="img_1"></span></li>
+                <li><span class="img_2"></span></li>
+                <li><span class="img_3"></span></li>
+                <li><span class="img_4"></span></li>
+          </ul>
+           <a id="btn_prev"  href="javascript:;"></a>
+           <a id="btn_next"  href="javascript:;"></a>
+       </div>
+    </div>
+    <div class="u-bor"></div>
+     <div class="g-intr">
+         <div class="u-title">为什么选择我们</div>
+         <div class="m-box">
+        <ul class="m-li">
+               <li class="item">
+               <div class="m-ti">web design</div>
+               <img src="../public/img/icon.png"/>
+                      <div class="m-de">
+                           <p>炫酷的页面，高大上的互联网技术，尽等你来探寻。。。。</p>
+                      </div>
+               </li>
+               <li class="item">
+               <div class="m-ti">Andriod</div>
+               <img src="../public/img/icon1.png"/>
+                      <div class="m-de">
+                           <p>流行的手机App应用，专业的移动端技术，尽等你来参与。。。。</p>
+                      </div>
+                </li>
+               <li class="item">
+               <div class="m-ti">Ios</div>
+               <img src="../public/img/icon2.png"/>
+                     <div class="m-de">
+                           <p>传奇的苹果历史，高端的前沿技术，尽等你来揭开神秘面纱。。。。</p>
+                     </div>
+               </li>
+        </ul>
+        </div>
+     </div>
+     <div class="g-work">
+              <div class="u-title">作品展示</div>
+          <div class="g-sr" id="scroll">
+              <ul>
+                   <li class="item">
+                        <a href=""><img  src="/public/img/works/1351871216.jpg" alt="img" /></a>
+                   </li>
+                   <li class="item">
+                        <a href=""><img  src="/public/img/works/1306068149sxx.jpg" alt="img" /></a>
+                   </li>
+                   <li class="item">
+                        <a href=""><img  src="/public/img/works/1357892659.jpg" alt="img" /></a>
+                  </li>
+
+                  <li class="item">
+                        <a href=""><img  src="/public/img/works/1357892659.jpg" alt="img" /></a>
+                  </li>
+                  <li class="item">
+                        <a href=""><img  src="/public/img/works/1351871216.jpg" alt="img" /></a>
+                  </li>
+                <li class="item">
+                        <a href=""><img  src="/public/img/works/1306068149sxx.jpg" alt="img" /></a>
+                  </li>
+        </ul>
+     </div>
+                  <a id="prev"  href="javascript:;"></a>
+                  <a id="next"  href="javascript:;"></a>
+     </div>
+
+     <div class="g-about">
+        <div class="u-title">关于我们</div>
+        <div class="m-abo">
+           <div class="tit">团队简介</div>
+        <hr>
+           <p>沸点工作室是一支基于导师制的本科生人才孵化团队，以实际项目为驱动力，主攻web系统规划和开发、移动手持设备软件开发(Ios/Android)。团队成立于2010年9月，其成员主要由华中农业大学在校本科生组成，旨在提升团队成员面对新事物学习能力、动手实践能力、创新能力和团队协作精神。</p>
+
+        </div>
+        <div class="m-detail">
+            <div class="intr">联系我们</div>
+        <hr>
+        <p>QQ群：222807849</p>
+        <p>微博：<a href="http://weibo.com/u/3475549580">沸点工作室_hzau</a></p>
+        <p>微信公众号：沸小点</p>
+        <p>github账号：<a href="https://github.com/52FeidianStudio">52FeidianStudio</a></p>
+        <p>Address ：中国 武汉 华中农业大学 逸夫楼B403</p>
+        </div>
+     </div>
+
+
+  </div>
+</div>
+
+ <div class="u-bor"></div>
+{% include footer.html %}
+
+<script type="text/javascript">
+    $(function(){
+    $('#scroll').scrollbox({
+      direction: 'h',
+      distance: 134
+    });
+    $('#next').click(function () {
+      $('#scroll').trigger('backward');
+    });
+    $('#prev').click(function () {
+      $('#scroll').trigger('backward');
+    });
+         });
+
+</script>
