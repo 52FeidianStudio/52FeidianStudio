@@ -376,10 +376,11 @@ article{
      }
      .g-mem-box{
            width:1015px;height:0 auto;margin:0 auto;  
-           span{font-size:18px;margin:0 auto;margin-left:60px; font-weight:bold;color:#FF5F3E;}
-           hr{width:100%;margin:0 auto;}
+          
        .g-me-li{
               list-style:none; 
+               span{font-size:18px;margin:0 auto;margin-left:60px; font-weight:bold;color:#FF5F3E;display:inline-block;}
+               hr{width:992px;margin:0 auto;}
               .item{
                    width:320px;height:280px;float:left; margin-left:14px; margin-top:60px;display:block;background:#fff;
                    .f-det{
