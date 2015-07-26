@@ -379,7 +379,7 @@ article{
           
        .g-me-li{
               list-style:none; 
-               span{font-size:18px;margin:0 auto;margin-left:60px; font-weight:bold;color:#FF5F3E;display:inline-block;}
+               .g-year{font-size:18px;margin-left:60px; font-weight:bold;color:#FF5F3E;clear:both;}
                hr{width:992px;margin:0 auto;}
               .item{
                    width:320px;height:280px;float:left; margin-left:14px; margin-top:60px;display:block;background:#fff;
