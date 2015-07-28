@@ -127,11 +127,10 @@ article kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px
 .g-mem{width:100%;heigth:0 auto;background:#eee;display:block;}
 .g-mem .tit{color:#555;font-size:2em;margin-bottom:20px;padding-left:6%;padding-top:20px;}
 .g-mem .g-mem-box{width:1015px;height:0 auto;margin:0 auto;}
-
 .g-mem .g-mem-box .g-me-li{list-style:none;}
+.g-mem .g-mem-box .g-me-li .g-year{font-size:18px;margin-left:60px;font-weight:bold;color:#ff5f3e;clear:both;}
+.g-mem .g-mem-box .g-me-li hr{width:992px;margin:0 auto;}
 .g-mem .g-mem-box .g-me-li .item{width:320px;height:280px;float:left;margin-left:14px;margin-top:60px;display:block;background:#fff;}
-.g-mem .g-mem-box .g-me-li .item .g-year{font-size:18px;margin-left:60px;clear:both;font-weight:bold;color:#ff5f3e;clear:both;}
-.g-mem .g-mem-box .g-me-li .item hr{width:992px;margin:0 auto;}
 .g-mem .g-mem-box .g-me-li .item .f-det{width:300px;height:140px;margin:0 auto;margin-top:-40px;}
 .g-mem .g-mem-box .g-me-li .item .f-det p{text-indent:2em;}
 .g-mem .g-mem-box .g-me-li .item .f-img{width:140px;height:140px;border-radius:50%;background:#fff;margin:0 auto;z-index:300;position:relative;border:none;top:-50px;left:0;}
