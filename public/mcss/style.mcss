@@ -335,7 +335,7 @@ article{
   background:#fff;
    .tit{
          color: #555;font-size: 2em;margin-bottom: 20px; padding-left:6%;padding-top:20px;
-         span{font-size:0.4em;color:red;}
+         span{font-size:14px;;color:red;}
      }
   .g-pro-box{
        width:1015px;height:0 auto;margin:0 auto; 
