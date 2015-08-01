@@ -335,7 +335,7 @@ article{
   background:#fff;
    .tit{
          color: #555;font-size: 2em;margin-bottom: 20px; padding-left:6%;padding-top:20px;
-         span{font-size:0.8em;color:red;}
+         span{font-size:0.4em;color:red;}
      }
   .g-pro-box{
        width:1015px;height:0 auto;margin:0 auto; 
@@ -349,7 +349,7 @@ article{
          }
          .f-over{width:312px;height:250px;background:rgba(0,0,0, .8);position:relative;top:-256px;left:0px;z-index:2; display:none;
             div{
-                 color:#fff;font-size:14px;display:block;margin:0 10px 0 10px;
+                 color:#fff;font-size:14px;display:block;margin:0 20px 0 20px;line-height:20px;
             }
             .f-aut{
                    padding-top:60px;
