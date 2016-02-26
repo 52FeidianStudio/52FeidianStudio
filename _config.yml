@@ -1,17 +1,19 @@
-name: 52FeidianStudio
-url: http://52FeidianStudio.github.io
-source:      .
-destination: ./_site
-lsi:      false
-safe:     false
-markdown: redcarpet
-permalink: /article/:year/:month/:title
+title: 沸点工作室 | 华中农业大学
+description: 沸点工作室是一支基于导师制的本科生人才孵化团队，以实际项目为驱动力，主攻Web、iOS、Android的APP设计与开发。
+url: http://www.52feidian.com
+
+source: .
+permalink: /blog/:year/:month/:title.html
 paginate: 12
 paginate_path: "articles/page:num"
-encoding: utf-8
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
 
 post_defaults:
   layout: post
 
-redcarpet:
-  extensions: ["tables", "autolink"]
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
