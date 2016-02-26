@@ -12,7 +12,7 @@
         {% for post in site.posts %}
         {% if post.category == 'blog' %}
         <li class="item">
-          <a class="pic" href="{{ post.url }}/" title="{{ post.title }}">
+          <a class="pic" href="{{ post.url }}" title="{{ post.title }}">
             <img src="/public/img/{{ post.image }}" onerror="this.src='/public/img/default1.png'"/>
           </a>
           <a class="tit f-toe" href="{{ post.url }}/" title="{{ post.title }}">{{ post.title }}</a>
