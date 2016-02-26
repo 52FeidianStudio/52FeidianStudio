@@ -11,7 +11,7 @@ encoding: utf-8
 
 # show_drafts: false
 
-permalink: /blog/:year/:month/:title.html
+permalink: /blog/:year/:month/:title
 paginate: 12
 paginate_path: "articles/page:num"
 
