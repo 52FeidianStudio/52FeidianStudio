@@ -1,8 +1,16 @@
+# Jekyll站点配置
+# 具体参见：http://jekyll.bootcss.com/docs/configuration/
+
 title: 沸点工作室 | 华中农业大学
 description: 沸点工作室是一支基于导师制的本科生人才孵化团队，以实际项目为驱动力，主攻Web、iOS、Android的APP设计与开发。
+email: shhider@163.com
 url: http://www.52feidian.com
+baseurl: /
 
-source: .
+encoding: utf-8
+
+# show_drafts: false
+
 permalink: /blog/:year/:month/:title.html
 paginate: 12
 paginate_path: "articles/page:num"
@@ -10,9 +18,6 @@ paginate_path: "articles/page:num"
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-post_defaults:
-  layout: post
 
 markdown: kramdown
 kramdown:
