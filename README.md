@@ -60,8 +60,14 @@ Jekyll是Ruby的一个模块，要通过Ruby的包管理器——gem进行安装
 
 解决办法:
 
-  S:\> gem source -r https://rubygems.org/
-  S:\> gem soruce -a http://ruby.taobao.org/
+    S:\> gem source -r https://rubygems.org/
+    S:\> gem soruce -a http://ruby.taobao.org/
+  
+  问题：ERROR:  Could not find a valid gem 'jekyll' (>= 0) in any repository
+  解决：https://github.com/juthilo/run-jekyll-on-windows/issues/34
+    $ gem sources --remove https://rubygems.org/
+    $ gem sources -a http://rubygems.org/
+    $ gem install jekyll
 
 
 **以上过程可能因系统、版本等因素出现异常。如果出现异常，请尝试自己查阅资料解决，并完善本文档。**
